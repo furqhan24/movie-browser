@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Movies World</title>
+  <link rel="stylesheet" href="movie5.css">
+</head>
+<body>
+
+  <div id="loginModal" class="modal">
+    <div class="login-logo">MOVIES WORLD</div>
+    <div class="modal-content">
+      <div class="toggle-btn" onclick="toggleTheme()" id="themeIcon">🌙</div>
+      <h2>Login</h2>
+      <input type="text" id="username" placeholder="Username" />
+      <input type="password" id="password" placeholder="Password" />
+      <button onclick="login()">Login</button>
+    </div>
+  </div>
+
+  <nav style="display: none;" id="navbar">
+    <div class="logo">MOVIES WORLD</div>
+    <ul class="nav-links">
+      <li><a onclick="showContent('home')">Home</a></li>
+      <li><a onclick="showContent('shows')">Shows</a></li>
+      <li><a onclick="showContent('horror')">Horror</a></li>
+      <li><a onclick="showContent('mythological')">Mythological</a></li>
+      <li><a onclick="showContent('comedy')">Comedy</a></li>
+      <li><a onclick="logout()" id="logout">Logout</a></li>
+    </ul>
+    <div class="toggle-btn" onclick="toggleTheme()" id="themeIconNav">🌙</div>
+  </nav>
+
+  <div id="content" class="fade" style="display: none;"></div>
+  <script src="movie5.js"></script>
+</body>
+</html>
