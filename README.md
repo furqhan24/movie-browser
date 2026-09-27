@@ -2,6 +2,8 @@
 
 A responsive movie browsing web application developed using HTML, CSS, and JavaScript. The application allows users to explore movies through category-based navigation while providing an interactive and user-friendly browsing experience.
 
+### 🚀 [Live Demo](https://furqhan24.github.io/movie-browser/) | 📂 [Source Code](https://github.com/furqhan24/movie-browser)
+
 ## Features
 
 * Movie category navigation
